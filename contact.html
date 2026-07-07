@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services & Contact | Energizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">🔋 ENERGIZER</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="features.html">How It Works</a>
+            <a href="gallery.html">Analysis</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main class="page">
+        <div class="container-narrow">
+            <span class="badge">Client Support</span>
+            <h2>Professional Ecosystem Services</h2>
+            <p class="lead-text">We provide end-to-end support for our storage solutions, ensuring system reliability and peak performance.</p>
+        </div>
+
+        <div class="grid" style="margin-bottom: 3rem;">
+            <div class="card">
+                <h4>🛠️ Customization</h4>
+                <p>Tailored capacities, corporate branding adjustments, and technical specifications tailored for unique commercial or home deployment requirements.</p>
+            </div>
+            <div class="card">
+                <h4>⚙️ Maintenance</h4>
+                <p>Comprehensive warranty options, complete replacement support for battery cells, and specialized long-term operational health check-ups.</p>
+            </div>
+            <div class="card">
+                <h4>📞 User Guidance</h4>
+                <p>Dedicated technical assistance channels for layout optimization, system parameter tuning, and step-by-step performance adjustments.</p>
+            </div>
+        </div>
+
+        <h2>Submit an Inquiry</h2>
+        <form onsubmit="event.preventDefault(); alert('Inquiry successfully logged by Energizer Technical Support.');">
+            <label for="client-name">Full Name / Organization</label>
+            <input type="text" id="client-name" placeholder="Enter your name" required>
+
+            <label for="client-email">Email Address</label>
+            <input type="email" id="client-email" placeholder="name@company.com" required>
+
+            <label for="client-needs">System Requirements / Message</label>
+            <textarea id="client-needs" rows="4" placeholder="Describe your power application criteria..." required></textarea>
+
+            <button type="submit" class="btn">Submit Support Request</button>
+        </form>
+    </main>
+
+    <footer><p>&copy; 2026 Group Energizer</p></footer>
+</body>
+</html>
